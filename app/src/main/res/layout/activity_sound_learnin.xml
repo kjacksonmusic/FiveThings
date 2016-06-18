@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.fivethings.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sound3" />
+
+
+    <TextView
+        style="@style/TitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="16sp"
+        android:paddingRight="16dp"
+        android:text="@string/sound_waves_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="5"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:text="@string/sound_waves_what_even_are_they"
+            android:textColor="#616161"
+            android:textSize="16sp" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/sound_learnin_checkbox1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1.5"
+            android:paddingLeft="8dp"
+            android:text="I understand" />
+
+        <CheckBox
+            android:id="@+id/idontunderstandsoundwaves"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:text="I need more info" />
+
+        <Button
+            android:id="@+id/go_pg2_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:onClick="goToPage3"
+            android:text="Next >" />
+
+    </LinearLayout>
+</LinearLayout>

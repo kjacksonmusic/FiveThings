@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.fivethings.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sound3" />
+
+
+    <TextView
+        style="@style/TitleText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:paddingLeft="16sp"
+        android:paddingRight="16dp"
+        android:text="@string/Intro" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/SubTitle"
+        android:textColor="#616161"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/go_pg2_button"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="16dp"
+        android:layout_weight=".1"
+        android:onClick="goToPage2"
+        android:text="Next >" />
+</LinearLayout>

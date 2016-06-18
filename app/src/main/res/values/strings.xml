@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Five Things</string>
+
+    <string name="Intro">How does sound travel? \nHow does an equalizer work?\nWhat is feedback?\nWhat is compression?\nWhat is a sample rate? </string>
+
+    <string name="SubTitle">Click next to find the answers to these baffling questions.</string>
+
+    <string name="sound_waves_what_even_are_they">Sound travels in waves. These waves travel best through liquids or gases.
+        Being that you don’t live in the ocean, you are probably more concerned with how sound travels through gases (air etc.).
+Sound travels in waves, these waves move through the air by vibrating the molecules in the air.\n
+        In a very basic way, think of low frequencies of sound (bass), these have large sound waves. So large,
+        they often travel well through solid mediums. \nThink of the last time you heard the loud thump of someone else\'s (surely it\'s not you) subwoofers rattling their trunk while you were stuck in traffic.
+        Those were large waves.. Because they were low frequencies and generally subwoofers only reproduce 20hz-120hz they travel very well through the trunk of a car.
+	In contrast to this high frequencies, generally generated - through small speakers called tweeters and horns, are small meaning they have short wavelengths.
+        These sounds generally speaking 4khz-20kz, are not normally heard from the outside of that obnoxious drivers vehicle.
+       \n To recap, sound travels in waves the size or wavelength or is determined by the frequency of the wave. If you think of this in terms of ocean waves,
+        really deep bass is a tsunami and really high frequencies are choppy waters on a windy day. </string>
+
+    <string name="sound_waves_title">How does this sound?</string>
+
+    <string name="moving_particles_text">In the image above. Imagine the loud speaker moving outward when it receives a positive signal. \nThis outward movement, i
+    turn pushes molecules in the air in the direction of the speaker.. this in turn is how sound travels, its just molecules in air being moved.
+    \nBecause sound is just moving molecules, you can imagine now how sound reflects and absorbs. Generally sound moves in a straight path until it hits a hard or refecltive surface.
+    This surface would then reflect the sound much like it were a flashlight beam striking a mirror. </string>
+
+    <string name="eq_title">equalizer - eq - "hey bob turn those knobs to make it sound better"</string>
+
+    <string name="eq_body">An equalizer or eq for short, is used to boot or attenuate certain audio frequencies. Many people are familiar with this in terms
+    of home audio, where there is an eq section that allows the user to control treble (high frequencies) mids (self explanatory) and bass (low frequencies).
+    \nWhat a lot of people don\'t understand about an eq is that it is often used to fix the frequency response of a sound system in a room or even outdoors.
+    Most professional PA (public address) systems have an eq dedicated to this. This eq is often used to get rid of feedback, which you will learn about on the next page. </string>
+
+
+    <string name="feedback_title">Feedback - not the good kind</string>
+
+    <string name="feedback_body">As the title states, feedback is the bane of any sound engineers life. You may be familiar with the annoying screech of a microphone,
+    as it is used in any movie/tv show as the anxious person about to make a breath taking speech walks up to a podium and taps on the mic, and suddenly there is feedback.
+    Which somehow has brain washed many into thinking okay there\'s feedback, that means the microphone is on. \nSo what is feedback?! Well, feedback happens when there is a loop
+    you can think of it as an infinite loop of audio signals also known as voltage in a speaker/microphone cable. This loop translates to screeching sound depending on what is looping.\nLet\'s
+    say that you are using a microphone on a stage, and suddenly you decide you need to jump off stage into the audience, now you are in front of the speakers!!
+    The microphone will essentially playback the frequency that resonates from itself to speakers causing feedback, this frequency is generally a higher frequency in
+    microphones designed for vocals because many of them attenuate the low frequencies to prepare for the proximity effect (the emphasis of low freq as the user holds the mic
+    closer to their mouth etc.\nI mentioned that we could use EQ to get rid of feedback, to do this you would need to find out what audio frequencies resonate between the mic
+    and the speakers and then cut that freq either in the EQ for the speakers or the EQ for the mic, depending on what gear you have available. To recap, don\'t use a microphone in front of
+    speakers, but know this can also happen with things like guitar pickups (you\'ve heard feedback on many hit records) anything that can reproduce sound can cause a loop anything that can loop can cause feedback. Feedback is bad.</string>
+
+    <string name="comp_title">Compression - keepin\' it consistent</string>
+
+    <string name="comp_body">In the image above you will notice some lines in a box. Very keen of you.\nNow shifiting our attention away from the lines to the box,
+    imagine the Y axis of this box to be the output level and the input level to be input level. So you have audio signal coming in and going out, great.\nNow
+    lets look at the thick blue line in the middle, that would be our threshold this would be set to compress (more on that in a bit) at a certain point of input level.
+    Inside our fancy box there is a line this line represents our level of compression notice that it does not allow all signas to pass through but there is some gain reduction
+    (indicated by the orange line).\n A compressor compresses audio signals. This can work in two ways the most common being that a compressor is inserted on the signal
+    from something like a vocal that sometimes isn\'t very consistent, ie there are quiet parts sung and then really.. really loud parts sung, the compressor
+    would ,if set properly keep a happy medium in between so when the singer begins to rebel yell the volume is normalized and everyone can still use their ears withtou
+    hearing-aids.\nClick the button for a better illustration direct from my minds eye, click the button below!  </string>
+
+    <string name="SR_Title">Sample Rate - It is what it sounds like</string>
+
+    <string name="SR_Body">Sample rate is directly related to digital audio, as it is the number of samples of audio carried per second, the measurement is made in Hz or Khz.\n
+    Why do I even care about sample rate? Well for one, it\'s interesting. For another it matters if you want to know if the audio you are listening sounds the way it should.
+    The standard sample rate for audio is 44.1kHz, this translates to 44,100 samples per second.\n What is lesser known about sample rates is the Nyquist Theorem.
+    The Nyquist Theorem without going into math states that the highest frequency (audio) that can be reproduced at a sampling rate of 44.1kHz is 20kHZ, the threshold of human hearing,
+    is 20Hz ~ 20kHz. So is 44.1 the best sampling rate? No, yes it only exists in the range of hearing but what about all the nuances you are missing because you are only sampling
+    at 44.1 what if you upgrade to 96kHz? Being that hearing is relative to the listener I suppose this is a matter of preference or maybe even a a case of
+    what the thinker thinks the prover proves. </string>
+
+</resources>
